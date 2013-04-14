@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    bake (0.0.1)
+      rake
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.2.3)
+    rake (10.0.4)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bake!
+  rspec-core (~> 2.11, >= 2.11.1)
+  rspec-expectations (~> 2.11, >= 2.11.3)
+  rspec-mocks (~> 2.11, >= 2.11.3)
